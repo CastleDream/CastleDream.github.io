@@ -11,7 +11,7 @@ redirect_from:
 
 |姓名|年龄|籍贯|Tel|E-mail|个人博客|
 |---|---|---|---|---|---|
-|黄珊|27|山西运城|18916327262|304680054@qq.com|https://blog.csdn.net/Castlehe|
+|黄珊|27|山西运城|18916327262|304680054@qq.com|<https://blog.csdn.net/Castlehe>|
 
 ## ✅ 教育背景
 
@@ -44,7 +44,7 @@ redirect_from:
 	+ 负责交互式管状物分割（传统算法-C++,ITK）：根据用户提供的种子点对支气管等管状物（血管、输尿管）进行分割，已经在动物实验中使用，效果获得医生认可。
 	+ 负责基于单点追踪的管状物分割（传统算法-C++,ITK）：根据给出的初始点和初始方向对管状物进行追踪，作为全自动管状物分割的后处理。
 + 脑卒中机器人项目，
-	+ 参与脑血肿分割（深度学习-pytorch）比赛：使用unet系列的模型，使用不同的策略，获得MICCAI2022脑血肿比赛的第四名，https://instance.grand-challenge.org/results/
+	+ 参与脑血肿分割（深度学习-pytorch）比赛：使用unet系列的模型，使用不同的策略，获得MICCAI2022脑血肿比赛的第四名，<https://instance.grand-challenge.org/results/>
 	+ 负责医疗影像数据对接【脑血肿（多类别）CT和脑血管（动脉）CTA】：使用3D Slicer和ITK-SNAP等检查返回的label，使用python脚本对原图进行质量审核，提供标注方案等。
 
 **OCR（数字仪表识别）**
