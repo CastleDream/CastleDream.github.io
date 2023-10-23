@@ -67,7 +67,7 @@ redirect_from:
 + 1个软件著作权：中文微博情感自动分析软件v1.0
 + 1个论文：Emojis-Based Recurrent Neural Network For Chinese Microblogs Sentiment Analysis（IEEE SOLI 2019）
 + 1个专利：黄珊. 一种增强文本合成图像的生成方法和系统，申请(专利)号：202111114911
-+ 所有做过的事情基本都在博客里：https://blog.csdn.net/Castlehe
++ 所有做过的事情基本都在博客里：<https://blog.csdn.net/Castlehe>
 
 
 
