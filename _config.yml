@@ -65,13 +65,13 @@ analytics:
 # Site Author
 author:
   name             : "黄珊"
-  avatar           : "profile.png"
+  avatar           : "1Profile.png"
   bio              : "程序员/算法工程师"
   location         : "ShangHai"
   email            : "304680054@qq.com"
   github           : "https://github.com/CastleDream"
+  zhihu            : "https://www.zhihu.com/people/qiu-lun-99"
   csdn             : "https://blog.csdn.net/Castlehe"
-
 
 # Reading Files
 include:

@@ -1,50 +1,71 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+## ✅ 个人简介
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+|姓名|年龄|籍贯|Tel|E-mail|个人博客|
+|---|---|---|---|---|---|
+|黄珊|27|山西运城|18916327262|304680054@qq.com|https://blog.csdn.net/Castlehe|
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## ✅ 教育背景
+|时间|学校|专业|学制|学位|
+|---|---|---|---|---|
+|2013.9~2017.6| 湖北大学|计算机科学技术|(全日制)本科|工学学士学位|
+|2017.09~2020.06|上海师范大学|计算机应用技术|(全日制)硕士|工学硕士学位|
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## ✅ 专业技能
+|编程语言|工具|库|框架|英语|
+|---|---|---|---|---|
+|python|git|pandas、numpy、matplotlib等数据分析库|Pytorch|CET-6|
+|C++|docker|ITK、SimpleITK等医学影像处理库及OpenCV|Tensorflow|CET-4|
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## ✅ 工作及实习经历
+|时间|公司名称|公司性质|在职时长|岗位名称|主要职责|备注|
+|---|---|---|---|---|---|---|
+|2022.03~2023.03|上海微创医疗机器人(集团)股份有限公司|上市公司（私企）|1年|算法工程师|医疗图像（3D）分割算法的实现、优化和软件联调上线，与供应商对接医疗影像数据|优化离职|
+|2021.01~2022.02|上海仪电人工智能创新院|国有独资|1年|人工智能工程师|进行算法相关（基于知识图谱的对话系统和OCR）的调研实现，协助培训部门等进行工作|集团内平移调动，在仪电集团内工作+实习共2.5年，主动离职|
+|2020.07~2020.12|上海仪电（集团）有限公司中央研究院|国有独资|0.5年|算法工程师助理|进行算法相关的调研实现，以及一些开发任务|实习转正|
+|2019.03~2020.03|上海仪电（集团）有限公司中央研究院|国有独资|1年|实习生|水务数据处理和目标检测任务|
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## ✅ 项目经历
+**医疗影像类（图像分割）**
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
++ 支气管镜机器人项目，
+	+ 负责交互式管状物分割（传统算法-C++,ITK）：根据用户提供的种子点对支气管等管状物（血管、输尿管）进行分割，已经在动物实验中使用，效果获得医生认可。
+	+ 负责基于单点追踪的管状物分割（传统算法-C++,ITK）：根据给出的初始点和初始方向对管状物进行追踪，作为全自动管状物分割的后处理。
++ 脑卒中机器人项目，
+	+ 参与脑血肿分割（深度学习-pytorch）比赛：使用unet系列的模型，使用不同的策略，获得MICCAI2022脑血肿比赛的第四名，https://instance.grand-challenge.org/results/
+	+ 负责医疗影像数据对接【脑血肿（多类别）CT和脑血管（动脉）CTA】：使用3D Slicer和ITK-SNAP等检查返回的label，使用python脚本对原图进行质量审核，提供标注方案等。
 
-**Markdown generator**
+**OCR（数字仪表识别）**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
++ 仪表数字识别项目（上海仪电智能科技有限公司）[paddleocr,python,opencv,pyQt]：负责算法部分。爬取数据或者利用textrenderer等生成数据，基于paddleocr的预训练模型finetune得到一个符合业务需求的数字仪表识别模型，使用PyQt和Opencv构建简单的标注软件进行数字框的定位，已结项。
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**windows开发**
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
++ 智慧计量实验室项目（上海电动工具研究所(集团)有限公司）[python,pywin32,C++]：负责后端。获取测量仪表的结果并生成报告，接收前端返回的数据，按特定格式写入excel文件，对有配套软件的仪器，使用C++，利用hook方式和dll共享内存的特性，借助特定组件的读写函数读取软件界面表格数据，已结项。
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**预研项目**
+
++ 基于知识图谱的问答系统：neo4j和anyq
++ 深度学习训练pipeline：polyaxon和streamlit
++ 数据标注系统：CVAT系统搭建、使用及API访问
+
+
+
+## ✅ 其它
++ 1个软件著作权：中文微博情感自动分析软件v1.0
++ 1个论文：Emojis-Based Recurrent Neural Network For Chinese Microblogs Sentiment Analysis（IEEE SOLI 2019）
++ 1个专利：黄珊. 一种增强文本合成图像的生成方法和系统，申请(专利)号：202111114911
++ 所有做过的事情基本都在博客里：https://blog.csdn.net/Castlehe
+
+
+
+
+
