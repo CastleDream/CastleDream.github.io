@@ -1,5 +1,6 @@
 ---
-permalink: /portfolio/Aboutme
+permalink: /Aboutme/
+author_profile: true
 title: "关于我🙋‍♀️"
 ---
 ## 📝 个人简介
