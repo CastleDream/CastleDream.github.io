@@ -268,3 +268,43 @@ it-IT:
 
 # Another locale
 # --------------
+
+zh: &DEFAULT_CN
+  page                       : "页面"
+  pagination_previous        : "上一个"
+  pagination_next            : "下一个"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  toc_label                  : "当前页面"
+  ext_link_label             : "直接链接"
+  less_than                  : "少于"
+  minute_read                : "阅读时间"
+  share_on_label             : "分享"
+  meta_label                 :
+  tags_label                 : "标签:"
+  categories_label           : "类别:"
+  date_label                 : "Published:"
+  comments_label             : "说点啥呗🤪"
+  comments_title             : "留言"
+  more_label                 : "了解更多"
+  related_label              : "你可能也会喜欢"
+  follow_label               : "关注:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "最近的博文"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit Comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "感谢您的评论，审核通过后会显示在页面中"
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  zh-CN:
+  <<: *DEFAULT_CN
