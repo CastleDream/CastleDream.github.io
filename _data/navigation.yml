@@ -1,20 +1,10 @@
 # main links links
 main:
   - title: "博客文章"
-    url: /posts/
+    url: /year-archive/
 
   - title: "学习记录"
     url: /publications/
 
   - title: "关于我"
     url: /portfolio/
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-
-        
-
-    
-  # - title: "Guide"
-  #   url: /markdown/
